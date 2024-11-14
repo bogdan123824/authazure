@@ -38,7 +38,7 @@ function Registration() {
         data.append('photo', datas.photo);
     
         try {
-            const response = await axios.post(`${API_URL}/RegistrationUser`, data, {
+            await axios.post(`${API_URL}/RegistrationUser`, data, {
                 headers: {
                     'Content-Type': 'multipart/form-data', 
                 },
