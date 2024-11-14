@@ -74,7 +74,7 @@ function Login() {
                                         alt="User" 
                                         width="250"
                                         className="img-fluid" 
-                                        onError={() => setMessage("Не удалось загрузить аватарку")} 
+                                        onError={() => setMessage("Не удалось загрузить")} 
                                     />
                                 </div>
                             )}
